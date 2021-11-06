@@ -14,12 +14,12 @@
       <form action="#">
         <div class="user-details">
           <div class="input-box">
-            <span class="details">First Name</span>
-            <input type="text" placeholder="Enter your First name" v-model="firstName" required />
+            <span class="details">Name</span>
+            <input type="text" placeholder="Enter your name" v-model="Name" required />
           </div>
           <div class="input-box">
-            <span class="details">Last Name</span>
-            <input type="text" placeholder="Enter your Last name" v-model="lastName" required />
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your address" v-model="address" required />
           </div>
           <div class="input-box">
             <span class="details">Username</span>
@@ -49,7 +49,6 @@
         <div class="gender-details">
           <input type="radio" name="gender" id="dot-1" />
           <input type="radio" name="gender" id="dot-2" />
-          <input type="radio" name="gender" id="dot-3" />
           <span class="gender-title">Gender</span>
           <div class="category">
             <label for="dot-1">
@@ -59,10 +58,6 @@
             <label for="dot-2">
               <span class="dot two"></span>
               <span class="gender">Female</span>
-            </label>
-            <label for="dot-3">
-              <span class="dot three"></span>
-              <span class="gender">Others</span>
             </label>
           </div>
         </div>
@@ -81,7 +76,7 @@ export default {
   data() {
     return {
       firstName: "",
-      lastName: "",
+      address: "",
       username: "",
       age: "",
       email: "",
