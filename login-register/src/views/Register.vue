@@ -176,7 +176,7 @@ form .input-box span.details {
 form .gender-details .gender-title {
   font-size: 20px;
   font-weight: 500;
-  margi-right:640px;
+  margin-right:640px;
 }
 form .category {
   display: flex;
